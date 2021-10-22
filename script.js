@@ -19,7 +19,7 @@ function enterName() {
   location.href = "two.html";
 }
 
-function enterName2() {
+function getUser() {
   var v = localStorage.getItem('uName');
   document.getElementById('placeholder).innerHTML = v
 }
