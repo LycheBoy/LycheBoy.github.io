@@ -15,12 +15,11 @@ Local Storage is a way to pass values from one page o another because JavaScript
 
 function enterName() {
   var c = document.getElementById('userName').value;
-
   localStorage.setItem('uName',c);
   location.href = "two.html";
 }
 
-function enterName() {
-  var v = document.getElementById('userName2').value;
-  window.alert(v)
+function enterName2() {
+  var v = localStorage.getItem('uName');
+  document.getElementById('placeholder).innerHTML = v
 }
