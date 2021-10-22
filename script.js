@@ -13,7 +13,7 @@ Local Storage can set to expire after he session is complete
 Local Storage is a way to pass values from one page o another because JavaScript clears all variables
 */
 
-function enterName() {
+function getName() {
   var c = document.getElementById('userName').value;
   localStorage.setItem('uName',c);
   location.href = "two.html";
